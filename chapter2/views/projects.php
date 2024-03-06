@@ -7,7 +7,7 @@ $info = "
 </ul>";
 $style ="
 <style>
-nav a:nth-child(2) {
+nav a:nth-child(3) {
     text-decoration: underline;
 }
 </style>

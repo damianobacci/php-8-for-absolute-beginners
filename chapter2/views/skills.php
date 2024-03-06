@@ -4,7 +4,7 @@ $info = "
 <p>Object-oriented programming, for instance</p>";
 $style ="
 <style>
-nav a:nth-child(1) {
+nav a:nth-child(2) {
     text-decoration: underline;
 }
 </style>

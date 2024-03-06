@@ -11,7 +11,7 @@ $navigationIsClicked = isset($_GET['page']);
 if ($navigationIsClicked) {
     $fileToLoad = $_GET['page'];
 } else {
-    $fileToLoad = "skills";
+    $fileToLoad = "home";
 }
 include_once "views/$fileToLoad.php";
 $pageData->content .= $info;
