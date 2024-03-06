@@ -1,11 +1,11 @@
 <?php 
 $info = "
-<h1>Skills and educational background</h1>
-<p>Read all about my skills and training</p>";
+<h1>Skills that you need in PHP</h1>
+<p>Object-oriented programming, for instance</p>";
 $style ="
 <style>
-body {
-    background-color: green;
+nav a:nth-child(1) {
+    text-decoration: underline;
 }
 </style>
 ";

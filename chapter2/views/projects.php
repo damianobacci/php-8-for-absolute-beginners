@@ -3,12 +3,12 @@ $info = "
 <h1>Projects I have worked on</h1>
 <p>PHP projects, it's empty because I am just learning</p>
 <ul>
-<li>Empty......</li>
+<li>Empty...</li>
 </ul>";
 $style ="
 <style>
-body {
-    background-color: yellow;
+nav a:nth-child(2) {
+    text-decoration: underline;
 }
 </style>
 ";
