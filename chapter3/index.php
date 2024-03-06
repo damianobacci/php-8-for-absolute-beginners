@@ -20,8 +20,6 @@ if ($navigationIsClicked) {
 include_once "views/$fileToLoad.php";
 $pageData->content .= $info;
 
-include 'lib/getParagraph.php';
-
 require 'templates/page.php'; 
 echo $page;
 
