@@ -20,6 +20,7 @@ if ($navigationIsClicked) {
 include_once "views/$fileToLoad.php";
 $pageData->content .= $info;
 
+
 require 'templates/page.php'; 
 echo $page;
 

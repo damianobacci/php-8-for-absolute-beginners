@@ -1,9 +1,11 @@
 <?php 
 $info = "
 <h1>Projects I have worked on</h1>
-<p>PHP projects, it's empty because I am just learning</p>
+<p>Bunch of simple PHP projects</p>
 <ul>
-<li>Empty...</li>
+<li>An interactive quiz</li>
+<li>BMI Calculator</li>
+<li>Currency converter</li>
 </ul>";
 $style ="
 <style>
