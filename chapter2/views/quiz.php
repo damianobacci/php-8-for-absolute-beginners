@@ -19,5 +19,3 @@ function showQuizResponse( string $answer) {
     $response .= "<p><a href='index.php?page=quiz'>Try quiz again?</a></p>";
     return $response;
 }
-
-?>
