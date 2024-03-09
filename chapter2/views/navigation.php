@@ -6,6 +6,7 @@ $nav = "
 <a href='index.php?page=projects'>Projects</a>
 <a href='index.php?page=quiz'>Quiz</a>
 <a href='index.php?page=bmi'>BMI</a>
+<a href='index.php?page=currency'>Currency converter</a>
 </nav>
 ";
 ?>

@@ -1,11 +1,11 @@
 body {
   background-color: black;
   color: white;
-  max-width: 500px;
   margin: 1em auto;
   border: 1px solid white;
   border-radius: 20px;
   padding: 1em;
+  font-size: large;
 }
 
 nav {

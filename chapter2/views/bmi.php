@@ -9,8 +9,8 @@ nav a:nth-child(5) {
 }
 </style>";
 
-$quizIsSubmitted = isset($_POST["bmi-submitted"]);
-if ($quizIsSubmitted) {
+$formIsSubmitted = isset($_POST["bmi-submitted"]);
+if ($formIsSubmitted) {
     $weight = $_POST["weight"];
     $height = $_POST["height"];
     $bmi = $weight / (2 * ($height/100));
@@ -19,8 +19,8 @@ if ($quizIsSubmitted) {
     $info = "
 <form method='post' action='index.php?page=bmi'>
 <p>Calculate your BMI with this tool.</p>
-<label class='label 'for='weight'>Weight in KG</label><input type='number' name='weight' id='weight'/>
-<label class='label for='height'>Height in CM</label><input type='number' name='height' id='height'/>
+<label class='label 'for='weight'>Weight in KG</label><input type='number' name='weight'/>
+<label class='label for='height'>Height in CM</label><input type='number' name='height'/>
 <input type='submit' name='bmi-submitted' value='Calculate BMI'/>
 </form>";
 }
