@@ -4,7 +4,7 @@
 include_once "views/navigation.php";
 include_once "classes/Page_Data.class.php";
 $pageData = new Page_Data();
-$pageData->title = "Simple dynamic webpage in PHP";
+$pageData->title = "A dynamic gallery in PHP";
 $pageData->css = "<link rel='stylesheet' href='css/layout.css'/>";
 $pageData->content = $nav;
 $navigationIsClicked = isset($_GET['page']);
