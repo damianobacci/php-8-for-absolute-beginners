@@ -6,4 +6,3 @@ $nav = "
 <a href='index.php?page=upload'>Upload Image</a>
 </nav>
 ";
-?>
