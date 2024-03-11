@@ -1,0 +1,5 @@
+<?php
+include_once "models/Poll.class.php";
+$poll = new Poll();
+$pollData = $poll->getPollData();
+include_once "views/poll-html.php";
